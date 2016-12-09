@@ -1,0 +1,295 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Helios</title>
+        <meta charset="utf-8">
+        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery.dropotron.js"></script>
+            <script src="js/skel.min.js"></script>
+            <script src="js/skel-panels.min.js"></script>
+            <script src="js/init.js"></script>
+            <script src="js/smoothscroll.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+            <link rel="stylesheet" href="css/styletimeline.css">
+        <noscript>
+            <link rel="stylesheet" href="css/skel-noscript.css">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/style-noscript.css">
+        </noscript>
+        
+        <script>
+            $(function() {
+                $(window).scroll(function(){
+
+                            if ($(this).scrollTop() > 700) { // this refers to window
+                                document.getElementById("nav").style.backgroundColor = "#transparent";
+                                document.getElementById("nav").style.color = "#000";
+                            }else{
+                                document.getElementById("nav").style.backgroundColor = "transparent";
+                                document.getElementById("nav").style.color = "#fff";
+                            }
+                });
+            });
+        </script>
+    </head>
+    
+    <body class="homepage" id="homediv">
+    
+        <div id="header">
+            <div class="overlay" id="video" style="pointer-events: none;"></div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html#header">Home</a></li>
+                    <li><a href="index.html#features">Afdelingen</a>
+                        <ul><li><a href="afdelingen.html#development">Development Center</a> <a href="afdelingen.html#multimedia">Multimedia & Entertainment</a> <a href="afdelingen.html#art">Art & Design</a> <a href="afdelingen.html#fashion">Fashion Lab</a></li></ul>
+                    </li>
+                    <li><a href="index.html#overons">Over ons</a></li>
+                    <li><a href="index.html#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="wrapper style1" style="margin-top: 4em;">
+            <section id="features" class="container special">
+                <header>
+                    <h2>Afdelingen</h2>
+                    <span class="byline">dit zijn de afdelingen waarin CreationInc actief is.</span>
+                </header>
+            <div class="row">
+                <article class="4u special" style="width: 25% !important;"><a href="#development"><img src="images/development.png" alt="" style="margin-left: 112px; margin-right: 112px;"></a>
+                    <header>
+                        <h3><a href="#development">Development Center</a></h3>
+                    </header>
+                        <p> Wij ontwikkelen web applicaties. Een slimme innovatieve web applicatie geheel naar u eigen idee. Ook voor geheel nieuwe concepten bieden wij een slimme maatwerk web applicatie. </p>
+                </article>
+                <article class="4u special" style="width: 25% !important;"><a href="#multimedia"><img src="images/multimedia.png" alt="" style="margin-left: 112px; margin-right: 112px;"></a>
+                    <header>
+                        <h3><a href="#multimedia">Multimedia & Entertainment</a></h3>
+                    </header>
+                        <p> De producties van Creation Inc. variëren van op maat gesneden concepten tot exclusieve formats die zijn gebaseerd op de aantrekkingskracht en uitstraling van de mediawereld. </p>
+                </article>
+                <article class="4u special" style="width: 25% !important;"><a href="#art"><img src="images/art.png" alt="" style="margin-left: 112px; margin-right: 112px;"></a>
+                    <header>
+                        <h3><a href="#art">Art & Design</a></h3>
+                    </header>
+                        <p> Creation Inc Art & Design-house, actief in alle design-disciplines en is gespecialiseerd in design voor internet, scherm-gerelateerde media en DTP werkzaamheden.  </p>
+                </article>
+                <article class="4u special" style="width: 25% !important;"><a href="#fashion"><img src="images/fashion.png" alt="" style="margin-left: 112px; margin-right: 112px;"></a>
+                    <header>
+                        <h3><a href="#fashion">Fashion Lab</a></h3>
+                    </header>
+                        <p> Fashion! De heersende stijl of aangepaste stijl uitgedrukt in kleding of gedrag. Creation Inc. heeft een sterke team wat betreft onze fashion kenners. </p>
+                </article>
+            </div>
+            </section>
+        </div>
+        
+        <div class="carousel" id="carousel">
+            <div class="reel">
+                <article> <a href="#" class="image featured"><img src="images/pic01.jpg" alt=""></a>
+                    <header>
+                        <h3><a href="projecten.html#project1">Pulvinar sagittis congue</a></h3>
+                    </header>
+                        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+                </article>
+                <article> <a href="#" class="image featured"><img src="images/pic02.jpg" alt=""></a>
+                    <header>
+                        <h3><a href="projecten.html#project2">Fermentum sagittis proin</a></h3>
+                    </header>
+                        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+                </article>
+                <article> <a href="#" class="image featured"><img src="images/pic03.jpg" alt=""></a>
+                    <header>
+                        <h3><a href="projecten.html#project3">Sed quis rhoncus placerat</a></h3>
+                    </header>
+                        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+                </article>
+                <article> <a href="projecten.html#project4" class="image featured"><img src="images/pic04.jpg" alt=""></a>
+                    <header>
+                        <h3><a href="#">Ultrices urna sit lobortis</a></h3>
+                    </header>
+                        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+                </article>
+                <article> <a href="projecten.html#project5" class="image featured"><img src="images/pic05.jpg" alt=""></a>
+                    <header>
+                        <h3><a href="#">Varius magnis sollicitudin</a></h3>
+                    </header>
+                        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+                </article>
+                <article> <a href="projecten.html#project6" class="image featured"><img src="images/pic01.jpg" alt=""></a>
+                    <header>
+                        <h3><a href="#">Pulvinar sagittis congue</a></h3>
+                    </header>
+                        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+                </article>
+                <article> <a href="projecten.html#project7" class="image featured"><img src="images/pic01.jpg" alt=""></a>
+                    <header>
+                        <h3><a href="#">Pulvinar sagittis congue</a></h3>
+                    </header>
+                        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+                </article>
+                <article> <a href="projecten.html#project8" class="image featured"><img src="images/pic01.jpg" alt=""></a>
+                    <header>
+                        <h3><a href="#">Pulvinar sagittis congue</a></h3>
+                    </header>
+                        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+                </article>
+                <article> <a href="projecten.html#project9" class="image featured"><img src="images/pic01.jpg" alt=""></a>
+                    <header>
+                        <h3><a href="#">Pulvinar sagittis congue</a></h3>
+                    </header>
+                        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+                </article>
+                <article> <a href="projecten.html#project10" class="image featured"><img src="images/pic01.jpg" alt=""></a>
+                    <header>
+                        <h3><a href="#">Pulvinar sagittis congue</a></h3>
+                    </header>
+                        <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+                </article>
+            </div>
+        </div>
+    
+        <div class="wrapper style2" id="overons">
+            <article id="main" class="container special">
+                <ul class="tab">
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'creationinc')" id="defaultOpen">Creation Inc</a></li>
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'watdoenwij')">Wat doen wij</a></li>
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'missie')">Missie en visie</a></li>
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'concept')">Concept unit</a></li>
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'talent')">Talent</a></li>
+                    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'eindhoven')">Eindhoven</a></li>
+                </ul>
+
+                <div id="creationinc" class="tabcontent">
+                    <h3>Creation Inc</h3>
+                    <p>Creation Inc is een talentenontwikkeling & re-integratiebureau met ruime ervaring op het gebied van re-integratietrajecten, loopbaanbegeleiding en outplacement. Tevens zijn wij gespecialiseerd in het opleiden, omscholen en het begeleiden van werkzoekenden naar passend werk. Creation Inc. staat voor Talentenontwikkeling, Advies, Bemiddeling en Coaching. Deze vier diensten worden in alle trajecten van Creation Inc. aangeboden. De trajecten van Creation Inc. worden op basis van individuele wensen en behoeften gemaakt. Als de cliënt is geplaatst bij een werkgever bied Creation Inc. nazorg voor cliënt en desgewenst ook voor werkgever. Behalve werkzoekenden bemiddelen bij een werkgever, streeft Creation Inc. ook naar het behouden van de baan.</br></br>
+				    Vanuit de visie dat iedereen in staat is om te kunnen leren of werken, ongeacht leeftijd, sekse, opleidingsniveau of beperking, wordt in 20013 Creation Inc. opgezet. Sommige mensen hebben een persoonlijke begeleiding en een steuntje in de rug nodig. Door geen standaard pakketten aan te bieden maar maatwerk te leveren, kan Creation Inc. de meeste doelgroepen begeleiden naar een opleiding of betaalde baan.</br></br>
+				    Creation Inc. heeft zich de afgelopen jaren ontwikkeld tot een prettige samenwerkingspartner voor UWV’s, scholen en gemeenten in de omgeving van Eindhoven. Inmiddels werkt Creation Inc.in heel Nederland. Door goed in de gaten te houden wat mensen beweegt en hoe de arbeidsmarkt zich ontwikkelt, kan Creation Inc. maatwerkoplossingen bieden aan werkzoekenden en uitkeringsinstanties. Creation Inc. beschikt over een groot netwerk van werkgevers, scholen en andere relevante partijen in de arbeidsmarkt.</br></br>
+				    De eerste jaren van Creation Inc. werden voornamelijk jongeren geholpen die vanuit de UWV en school werden aangemeld talentenontwikkelingstraject. In een korte tijd wint Creation Inc. het vertrouwen van zowel de scholen, gemeente als de jongeren zelf. Doordat Creation Inc. met verschillende groepen werkt en een duurzaam aanpak heeft, zien ze jaarlijks de cijfers van uitstroom en bemiddeling stijgen.</br></br>
+                    Creation Inc. onderscheidt zich door de persoonlijke en passende aanpak. Cliënten zijn geen nummers en worden ook niet zo bejegend. Samen met de cliënt wordt er een persoonlijk plan gemaakt waarin ook de wederzijdse verwachtingen beschreven staan. Er wordt daarbij goed gekeken naar de aanwezige competenties en kwaliteiten welke het uitgangspunten zijn van het plan. Indien de cliënt niet beschikt over de gevraagde competenties, dan wordt daar nog verder aan gewerkt of wordt er gekeken naar alternatieven. Daarbij is de kunst om zo realistisch mogelijk te werk te gaan, het uiteindelijk doel is om gemotiveerd uit te stromen naar betaald werk.</p>
+                </div>
+
+                <div id="watdoenwij" class="tabcontent">
+                    <h3>Wat doen wij</h3>
+                    <p>Creation inc heeft een breed dienstenaanbod, speciaal gericht op het Samenwerkingsverband Regio Eindhoven(SRE). De kracht zit in de uitvoering: simpel, doeltreffend en op wijkniveau. Daarnaast speelt het platform een substantiële rol op sociaal en maatschappelijk gebied, door re-integratie- en participatieplaatsen te bieden voor mensen met een afstand tot de arbeidsmarkt. Kortom: CREATION INC. werkt.</br></br>
+                    <h3>Maatschappelijk ondernemen</h3>
+                    Mensen met een achterstand op de arbeidsmarkt bieden we kansen via passende opleidingen en op maat gesneden leer-werktrajecten. Creation Inc. ziet dit als haar maatschappelijke opdracht! Onze klanten krijgen naast een goede dienstverlening een extra voordeel. Door hun samenwerking met Creation Inc. geven zij invulling aan het maatschappelijk verantwoord ondernemen, oftewel social return on investment!</br></br>
+                    <h3>Vakmanschap</h3>
+                    Creation Inc is een professionele onderneming. Veel klanten kiezen voor het enthousiasme en vakmanschap van de organisatie. Creation Inc. is er voor bedrijven, instellingen, overheidsdiensten en bewoners binnen de wijken. Voor elke klus, project of traject gaan gemotiveerde medewerkers voor u aan de slag. Of het nu gaat om schoonmaakklussen, schilderen, behangen, invoerwerkzaamheden, toezicht houden bij winkelcentra, bewaken van fietsenstallingen, detacheren van (bedrijfs)kantinepersoneel, inpakken en sorteren, Creation Inc. staat voor u klaar.</br></br>
+                    <h3>Breed aanbod</h3>
+                    Creation Inc. kent de wensen van de klant en zet naar beste kunnen in voor iedere vraag naar de vele vormen van dienstverlening. We beschikken ook over een groot en effectief netwerk. Hierdoor kunnen ingewikkelde aanvragen zonder enige aarzeling worden opgepakt.</br></br>
+				    Wat kenmerkt de Creation Inc. diensten?</br>				    
+				    &#9830; Maatschappelijk verantwoord ondernemen</br>
+				    &#9830; Continuïteit in dienstverlening</br>
+				    &#9830; Totaalpakket voor klanten, één uitvoerder voor al uw vragen</br>
+                    &#9830; Professioneel, vanwege de grote vakkennis</br>
+                    &#9830; Zakelijk, omdat zij scherpe prijzen hanteert</br>
+                    &#9830; Servicegericht</br></br>
+                    <h4>Creation Inc.</h4>
+                    Kvk: 61542059</br>
+                    <h4>Stichting Lighttown Creations</h4>
+                    Kvk: 61525553</p>
+                </div>
+
+                <div id="missie" class="tabcontent">
+                    <h3>Missie en visie</h3>
+                    <p>Onze talenten worden begeleidt op een manier waardoor zij niet in de gaten hebben dat ze iets aan het leren zijn. Het doel is dan ook om de talenten een fijne thuisbasis te bieden waar ze zich prettig bij voelen en hen te stimuleren. Het inspireert en geeft richting aan de ontwikkeling en komt voort uit de idee&#235;n van diegenen die bij de projecten zijn betrokken.</br>
+				    Deze visie geeft ons de komende jaren richting en inspiratie aan ons denken en handelen in relatie tot de werkwijze van Creation Inc.</p>
+                </div>
+                
+                <div id="concept" class="tabcontent">
+                    <h3>Concept unit</h3>
+                    <p>Concept unit is de divisie van Creation Inc. die zich toelegt op business development en branded entertainment. De activiteiten strekken zich uit over alle platformen en worden gekenmerkt door een middelenbrede propositie. Creation Inc. werkt met een multidisciplinair team, waarin zowel strategische, creatieve, commerci&#235;le als technologische expertise zijn vertegenwoordigd. Dit profiel stelt de unit in staat om de groeiende behoefte aan cross mediale concepten te beantwoorden en nieuwe initiatieven en business modellen te ontwikkelen.</br></br>
+                    Belangrijke aandachtsgebieden zijn:</br>
+                    &#9830; Strategie, marketing / communicatie, concepting</br>
+                    &#9830; internet, online, mobiel, social media, gaming</br>
+                    &#9830; Branded content, sponsoring, exploitatie</br>
+                    &#9830; Productontwikkeling, merkontwikkeling, klantontwikkeling</br></br>
+                    Ongeacht de vorm wordt de inhoud van onze concepten altijd toegespitst op het oogmerk van de klant. Met andere woorden: bij Creation Inc. is het aanbod ondergeschikt aan de vraag. Uw doelstellingen zijn doorslaggevend voor de creatie en productie van het evenement, onze expertise staat in dienst van uw opdracht.</p>		
+                </div>
+
+                <div id="talent" class="tabcontent">
+                    <h3>Talent</h3>
+                    <p>Maak kennis met Talent Kitchen: specialist in onscreen talent en events. Talent Kitchen legt zich toe op talent in de multimedia en entertainment industrie. Wij zijn er voor het talent zelf en voor wie talent zoekt. Onze activiteiten zijn gericht op coaching en training, management en boekingen. Ook organiseert ons bureau exclusieve events, onder meer gebaseerd op populaire actuele concepten.</p>
+                </div>
+
+                <div id="eindhoven" class="tabcontent">
+                    <h3>Eindhoven</h3>
+                    <p>Een epicentrum in de stad, zo kun je onze verhouding tot de stad Eindhoven typeren. Jeugdculturen zullen zich laten zien tijdens events, festivals &#233;n in het dagelijks leven van jongeren. De Academy is er op momenten dat jongeren willen beleven en willen leren, vanuit school (stage) of buiten school. Creation Inc. </br>
+                    Academy wil samen gaan werken met verschillende partijen in de stad zoals de gemeente, uitgaansgelegenheden, eventorganisatoren, scholen, podia, jongerencentra, bedrijfsleven en creatieve ondernemingen.</p>
+                </div>
+            </article>
+
+        <script>
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
+
+        </div>
+    
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <style>
+                        #map {
+                        height: 300px;
+                        width: 100%;
+                        }
+                    </style>
+                    <div id="map"></div>
+                    <script>
+                        function initMap() {
+                            var eindhoven = {lat: 51.44375, lng: 5.478495};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 4,
+                                center: eindhoven
+                            });
+                            var marker = new google.maps.Marker({
+                                position: eindhoven,
+                                map: map
+                            });
+                        }
+                    </script>
+                    <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=4AIzaSyAlMKKvInkSrF4SOtCnInMWhT5syf4XQEE&callback=initMap">
+                    </script>
+                </div>
+                
+                    <hr>
+                
+                <div class="row">
+                    <div class="12u">
+                        <section class="contact">
+                            <header>
+                                <h3>Neem contact op via <a href="mailto:info@creationinc.nl" target="_top">info@creationinc.nl</a></h3>
+                            </header>
+                            <p>Keer terug naar <a href="http://www.lighttowncreations.nl">lighttowncreations.nl</a></p>
+                            <ul class="icons">
+                                <li><a href="https://www.facebook.com/creationinc.nl/?fref=ts" target="_blank" class="icon icon-facebook"><span>Facebook</span></a></li>  
+                                <li><a href="https://twitter.com/Creation_Inc?lang=nl" target="_blank" class="icon icon-twitter"><span>Twitter</span></a></li>
+                                <li><a href="https://nl.linkedin.com/in/giordano-martis-57357145" target="_blank" class="icon icon-linkedin"><span>Linkedin</span></a></li>
+                            </ul>
+                        </section>
+                        <div class="copyright">
+                            <ul class="menu">
+                                <li>&copy; Creation Inc. all rights reserved.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="js/jquery.youtubebackground.js"></script>
+        <script>
+        $('#video').YTPlayer({
+            fitToBackground: true,
+            repeat: true,
+            mute: true,
+            videoId: 'MljvwOG79io',
+        });
+        </script>
+        
+    </body>
+</html>
